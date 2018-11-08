@@ -1,0 +1,809 @@
+<!--================Header Menu Area =================-->
+<header class="header_area" id="header-wrap">
+	<div class="main_menu">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container box_1620">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<a class="navbar-brand logo_h" href="index.html">
+					<img src="assets/img/centrium_logo.png" height="80" width="150" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+					<ul class="nav navbar-nav menu_nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+						<li class="nav-item"><a class="nav-link" href="#plans">Invest Plans</a></li>
+						<li class="nav-item"><a class="nav-link" href="#services">Our Services</a></li>
+						<li class="nav-item"><a class="nav-link" href="#amenities">Amenities</a></li>
+						<li class="nav-item"><a class="nav-link" href="#team">Our Team</a></li>
+						<li class="nav-item submenu dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+							 aria-expanded="false">Blog</a>
+							<ul class="dropdown-menu">
+								<li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+								<li class="nav-item"><a class="nav-link" href="">Blog Details</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+						<li class="nav-item"><a class="nav-link" href="" data-toggle="modal" data-target="#myModal">CMS</a></li>
+					</ul>
+					<!-- <ul class="nav navbar-nav navbar-right">
+						<li class="nav-item"><a href="#" class="search"><i class="lnr lnr-magnifier"></i></a></li>
+					</ul> -->
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+<!--================Header Menu Area =================-->
+<div id="container">
+	<!--================Home Banner Area =================-->
+	<section id="home" class="home_banner_area">
+		<div class="banner_inner d-flex align-items-center">
+			<div class="container">
+				<div class="banner_content1">
+					<h1>Providing Luxurios Life Style</h1>
+					<h5>Being the best in our field means that we are committed to every project,</h5>
+					<h5>we have in genious ideas that become reality and we make.</h5>
+					<a class="main_btn" href="#">Free Call: <i>(051) 877 7778 </i></a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="advanced_search">
+				<h3>Search Properties for</h3>
+				<div class="search_select">
+					<select class="s_select">
+						<option  value="1">CHOOSE LOCATIONS</option>
+						<option  value="2">ISLAMABAD</option>
+						<option  value="4">LAHORE</option>
+					</select>
+					<select class="s_select">
+						<option value="1">CHOOSE BEDROOMS</option>
+						<option value="2">1</option>
+						<option value="4">2</option>
+						<option value="2">3</option>
+						<option value="4">4</option>
+						<option value="2">5</option>
+						<option value="4">5+</option>
+					</select>
+					<select class="s_select">
+						<option value="1">CHOOSE PRICE</option>
+						<option value="2">500$-1000$</option>
+						<option value="4">1100$-2000$</option>
+						<option value="2">2100$-3000$</option>
+						<option value="4">3100$-4000$</option>
+					</select>
+					<select class="s_select">
+						<option value="1">CHOOSE BATHROOMS</option>
+						<option value="2">1</option>
+						<option value="4">2</option>
+						<option value="2">3</option>
+						<option value="4">4</option>
+					</select>
+				</div>
+				<!-- <div class="search_range">
+					<div class="range_item">
+						<h5>Price Range</h5>
+						<div id="slider-range"></div>
+						<span class="d_text">$200</span>
+						<input type="text" id="amount" readonly style="border:0;" class="amount">
+					</div>
+					<div class="range_item">
+						<h5>property Area</h5>
+						<div id="slider-range2"></div>
+						<span class="d_text2">50sqm</span>
+						<input type="text" id="amount2" readonly style="border:0;" class="amount2">
+					</div>
+				</div> -->
+				<button type="submit" value="submit" class="btn submit_btn" onclick="location.href='#plans';">Search Property</button>
+			</div>
+		</div>
+	</section>
+	<!--================End Home Banner Area =================-->
+	<div class="text-center d-none">
+		<ul>
+			<li><a routerLink='/'>Home</a></li>
+			<li><a routerLink='/user'>User</a></li>
+		</ul>
+		<router-outlet></router-outlet>
+		</div>
+	<!--================Welcome Area =================-->
+	<section id="about" class="welcome_area p_120">
+		<div class="container">
+			<div class="main_title">
+				<h2>About</h2>
+				<p>ICONIC LIVING IN THE HEART OF ISLAMABAD - BAHRIA ENCLAVE</p>
+			</div>
+			<div class="row welcome_inner">
+				<div class="col-lg-6">
+					<div class="welcome_img">
+						<img class="img-fluid" src="assets/img/gallery/about-1.jpg" alt="">
+					</div>
+					<div class="welcome_text mt-5">
+						<h4>Stylish Living</h4>
+						<h5>WHY CHOOSE LUXURY CENTRIUM APARMENTS?</h5>
+						<p>The CENTRIUM stands tall amidst the valleys and peaks of Murree & Margalla Hills, 
+							Islamabad. Well placed right at the Civic Zone of Bahria Enclave, Islamabad, 
+							The CENTRIUM is a Jewel of Bahria Enclave. Spread over 43.58 kanals with 9-Storeys & 3 Basements, 
+							it’s a symbol of perfection and Iconic living.</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="welcome_text">
+						<h4>Luxury Apartments</h4>
+						<p>Inspired by contemporary Moroccan architecture - The Centrium is a true reflection of modern design and
+							luxurious lifestyle.
+							The eye catching geometric design grows from its complex glazed facade and external concrete fins,
+							creating a building which is both stunning and sustainable. Reflected in every apartment is the aesthetically
+							simple yet beautiful rendition of function and flexibility.
+							The Centrium is going to be another name of class living that encompasses all key elements of fine living. The
+							Centrium provides a range of spacious 1, 2, and 3 bedroom apartments;
+							giving future owners a broad based range to select according to their family needs. Reflected in every apartment
+							is the aesthetically simple yet beautiful rendition of function and flexibility.
+							From the feature ceilings and walls to be accented furniture and artwork, one finds a soothing blend of elegance
+							and simplicity that suit individual spaces and lifestyles.
+							Different room settings each with its own collection work in harmony to provide the ultimate comfort in premium
+							condominium living.</p>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="wel_item">
+									<i class="lnr lnr-apartment"></i>
+									<h4>1125</h4>
+									<p>Luxe Apartments</p>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="wel_item">
+									<i class="lnr lnr-store"></i>
+									<h4>247</h4>
+									<p>Shops</p>
+								</div>
+							</div>
+							<div class="col-sm-6 mt-5">
+								<div class="wel_item">
+									<i class="fa fa-building-o"></i>
+									<h4>9</h4>
+									<p>Storey Residential Complex</p>
+								</div>
+							</div>
+							<div class="col-sm-6 mt-5">
+								<div class="wel_item">
+									<i class="fa fa-car"></i>
+									<h4>3</h4>
+									<p>Parking Basement Floors</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Welcome Area =================-->
+
+	<!--================Properties Area =================-->
+	<section id="plans" class="properties_area p_120">
+		<div class="container">
+			<div class="main_title">
+				<h2>Apartment plans</h2>
+				<p>ICONIC LIVING IN THE HEART OF ISLAMABAD – BAHRIA ENCLAVE</p>
+			</div>
+			<div class="row properties_inner">
+				<div class="col-lg-4 mb-5" *ngFor="let item of getApartments">
+					<div class="properties_item">
+						<div class="pp_img">
+							<img class="img-fluid" src="{{item.image}}" alt="">
+						</div>
+						<div class="pp_content">
+							<a href="#">
+								<h4>{{item.title}}</h4>
+							</a>
+							<div class="tags">
+								<a href="#">{{item.price}}</a>
+								<a href="#">{{item.rooms}}</a>
+								<a href="#">{{item.bathRoom}}</a>
+								<a href="#">{{item.area}}</a>
+								<a href="#"><i class="fa fa-check" aria-hidden="true"></i>{{item.parking}}</a>
+								<!--<a href="#"><i class="fa fa-check" aria-hidden="true"></i>Pool</a>
+        							<a href="#"><i class="fa fa-times" aria-hidden="true"></i>Bar</a>-->
+							</div>
+							<div class="pp_footer">
+								<h5>Total: {{item.total}}M</h5>
+								<a class="main_btn" href="" data-toggle="modal" data-target="#myBookingModal">For Sale</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Properties Area =================-->
+
+	<!--================Feature Area =================-->
+	<section id="services" class="feature_area p_120">
+			<div class="container">
+				<div class="main_title">
+					<h2>Why we are the best</h2>
+					<p>ICONIC LIVING IN THE HEART OF ISLAMABAD – BAHRIA ENCLAVE</p>
+				</div>
+				<div class="row feature_inner">
+					<div class="col-lg-4 col-md-6">
+						<div class="feature_item">
+							<h4><i class="lnr lnr-user"></i>Expert Technicians</h4>
+							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="feature_item">
+							<h4><i class="lnr lnr-license"></i>Professional Service</h4>
+							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="feature_item">
+							<h4><i class="lnr lnr-phone"></i>Great Support</h4>
+							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="feature_item">
+							<h4><i class="lnr lnr-rocket"></i>Technical Skills</h4>
+							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="feature_item">
+							<h4><i class="lnr lnr-diamond"></i>Highly Recomended</h4>
+							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="feature_item">
+							<h4><i class="lnr lnr-bubble"></i>Positive Reviews</h4>
+							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!--================End Feature Area =================-->
+	
+	<!--================FEATURES & AMENITIES Area=================-->
+	<section id="amenities" class="entities_area p_120">
+			<div class="container">
+				<div class="main_title">
+					<h2>FEATURES & AMENITIES</h2>
+					<p>ICONIC LIVING IN THE HEART OF ISLAMABAD – BAHRIA ENCLAVE</p>
+				</div>
+				<div class="row gallery-item">
+						<div class="col-md-3">
+							<a href="assets/img/elements/1.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(assets/img/elements/1.jpg);"></div></a>
+						</div>
+						<div class="col-md-3">
+							<a href="assets/img/elements/2.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(assets/img/elements/2.jpg);"></div></a>
+						</div>
+						<div class="col-md-3">
+							<a href="assets/img/elements/3.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(assets/img/elements/3.jpg);"></div></a>
+						</div>
+						<div class="col-md-3">
+							<a href="assets/img/elements/4.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(assets/img/elements/4.jpg);"></div></a>
+						</div>
+						<div class="col-md-3">
+							<a href="assets/img/elements/5.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(assets/img/elements/5.jpg);"></div></a>
+						</div>
+						<div class="col-md-3">
+							<a href="assets/img/elements/6.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(assets/img/elements/6.jpg);"></div></a>
+						</div>
+						<div class="col-md-3">
+							<a href="assets/img/elements/7.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(assets/img/elements/7.jpg);"></div></a>
+						</div>
+						<div class="col-md-3">
+							<a href="assets/img/elements/8.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(assets/img/elements/8.jpg);"></div></a>
+						</div>
+						<div class="col-md-3">
+							<a href="assets/img/elements/9.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(assets/img/elements/9.jpg);"></div></a>
+						</div>
+						<div class="col-md-">
+							<a href="assets/img/elements/10.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(assets/img/elements/10.jpg);"></div></a>
+						</div>
+					</div>
+			</div>
+		</section>
+	<!--================End FEATURES & AMENITIES Area =================-->
+
+	<!--================Team Area =================-->
+	<section id="team" class="cities_area p_120">
+		<div class="container">
+			<div class="main_title">
+				<h2>Meet Our Team</h2>
+				<p>We are best because we are different</p>
+			</div>
+			<div class="row team_inner">
+				<div class="col-lg-3 col-sm-6">
+					<div class="team_item">
+						<div class="team_img">
+							<img class="img-fluid" src="assets/img/team/chairman.jpg" alt="">
+							<div class="hover">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<div class="team_name">
+							<h4>MALIK RIAZ HUSSAIN</h4>
+							<h4>CHAIRMAN – BAHRIA TOWN</h4>
+							<p>After creating a successful brand in the Real Estate Industry; whose practices match up to international standards around the globe, 
+								it is necessary to share the same values with other players in the industry. This will not only help in uplifting the whole industry 
+								but also the end consumer to have the best product choices in his/her hands.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="team_item">
+						<div class="team_img">
+							<img class="img-fluid" src="assets/img/team/ceo.jpg" alt="ceo">
+							<div class="hover">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="#" title="0331 5555969"><i class="fa fa-mobile"></i></a>
+								<a href="#" title=" info@egateproperty.com"><i class="fa fa-envelope"></i></a>
+							</div>
+						</div>
+						<div class="team_name">
+							<h4>MUHAMMAD WAJAHAT MANZOOR</h4>
+							<h4>CEO</h4>
+							<p>Eagle Gate Properties has a prime focus on luxury with comfort which enhances ease in 
+								your lifestyle. My personal efforts are centered to make sure that in every project 
+								we assure sustainability and supremacy of quality.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="team_item">
+						<div class="team_img">
+							<img class="img-fluid" src="assets/img/team/dsam.jpg" alt="DSM">
+							<div class="hover">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="#" title="0331 5555969"><i class="fa fa-mobile"></i></a>
+								<a href="#" title=" info@egateproperty.com"><i class="fa fa-envelope"></i></a>
+							</div>
+						</div>
+						<div class="team_name">
+							<h4>RAZIQ ALI</h4>
+							<h4>DIRECTOR SALES & MAEKETING</h4>
+							<p>We as a team wish to grow in the business of state of the art living and commercial 
+								standards for a better and prosperous future. Eagle Gate Properties tends to be the 
+								focal entity to deliver high standards at their best .</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="team_item">
+						<div class="team_img">
+							<img class="img-fluid" src="assets/img/team/director.jpg" alt="D">
+							<div class="hover">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="#" title="0331 5555969"><i class="fa fa-mobile"></i></a>
+								<a href="#" title=" info@egateproperty.com"><i class="fa fa-envelope"></i></a>
+							</div>
+						</div>
+						<div class="team_name">
+							<h4>SAJJAD KHAN</h4>
+							<h4>DIRECTOR</h4>
+							<p>Being a part of this esteemed organization I believe Eagle Gate Properties has taken 
+								the culture of the traditional property centric environment to a whole new level of 
+								class and poise. Eagle gate properties is not only a name in the business but also a 
+								competent entity to uplift comfort living with quality and grace.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Team Area =================-->
+
+	<!--================Testimonials Area ================= -->
+        <!-- <section class="testimonials_area p_120">
+        	<div class="container">
+        		<div class="row testimonials_inner">
+        			<div class="col-lg-4">
+        				<div class="testi_left_text">
+        					<h4>Client’s Feedback</h4>
+        					<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-8">
+        				<div class="testi_slider owl-carousel">
+							<div class="item">
+								<div class="testi_item">
+									<img src="assets/img/testimonials/testi-1.png" alt="">
+									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
+									<h4>Cordelia Barton</h4>
+									<h6>CEO at Google</h6>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testi_item">
+									<img src="assets/img/testimonials/testi-2.png" alt="">
+									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
+									<h4>Cordelia Barton</h4>
+									<h6>CEO at Google</h6>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testi_item">
+									<img src="assets/img/testimonials/testi-1.png" alt="">
+									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
+									<h4>Cordelia Barton</h4>
+									<h6>CEO at Google</h6>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testi_item">
+									<img src="assets/img/testimonials/testi-2.png" alt="">
+									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
+									<h4>Cordelia Barton</h4>
+									<h6>CEO at Google</h6>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testi_item">
+									<img src="assets/img/testimonials/testi-1.png" alt="">
+									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
+									<h4>Cordelia Barton</h4>
+									<h6>CEO at Google</h6>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testi_item">
+									<img src="assets/img/testimonials/testi-2.png" alt="">
+									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
+									<h4>Cordelia Barton</h4>
+									<h6>CEO at Google</h6>
+								</div>
+							</div>
+						</div>
+        			</div>
+        		</div>
+        	</div>
+        </section> -->
+	<!--================End Testimonials Area =================-->
+	
+	<!--================Gallery Area =================-->
+	<section id="" class="gallery_area p_120">
+		<div class="container">
+			<div class="main_title">
+				<h2>Our Gallery</h2>
+				<p>ICONIC LIVING IN THE HEART OF ISLAMABAD – BAHRIA ENCLAVE</p>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+							<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CENTRIUM"
+							   data-image="../assets/img/banner/banner-2.jpg"
+							   data-target="#image-gallery">
+								<img class="img-thumbnail"
+									 src="../assets/img/banner/banner-2.jpg"
+									 alt="Another alt text">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+							<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+							   data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+							   data-target="#image-gallery">
+								<img class="img-thumbnail"
+									 src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+									 alt="Another alt text">
+							</a>
+						</div>
+			
+						<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+							<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+							   data-image="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+							   data-target="#image-gallery">
+								<img class="img-thumbnail"
+									 src="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+									 alt="Another alt text">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+							<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Test1"
+							   data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+							   data-target="#image-gallery">
+								<img class="img-thumbnail"
+									 src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+									 alt="Another alt text">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+							<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+							   data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+							   data-target="#image-gallery">
+								<img class="img-thumbnail"
+									 src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+									 alt="Another alt text">
+							</a>
+						</div>
+			
+			
+			
+						<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+							<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+							   data-image="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+							   data-target="#image-gallery">
+								<img class="img-thumbnail"
+									 src="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+									 alt="Another alt text">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+							<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+							   data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+							   data-target="#image-gallery">
+								<img class="img-thumbnail"
+									 src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+									 alt="Another alt text">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+							<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+							   data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+							   data-target="#image-gallery">
+								<img class="img-thumbnail"
+									 src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+									 alt="Another alt text">
+							</a>
+						</div>
+			
+			
+			
+						<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+							<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+							   data-image="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+							   data-target="#image-gallery">
+								<img class="img-thumbnail"
+									 src="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+									 alt="Another alt text">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+							<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+							   data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+							   data-target="#image-gallery">
+								<img class="img-thumbnail"
+									 src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+									 alt="Another alt text">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+							<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+							   data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+							   data-target="#image-gallery">
+								<img class="img-thumbnail"
+									 src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+									 alt="Another alt text">
+							</a>
+						</div>
+					</div>
+			
+			
+					<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title" id="image-gallery-title"></h4>
+									<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<img id="image-gallery-image" class="img-responsive col-md-12" src="">
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+									</button>
+			
+									<button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> 
+	<!--================End Gallery Area =================-->
+	<!--================Clients Logo Area =================-->
+	<!-- <section class="clients_logo_area p_120">
+		<div class="container">
+			<div class="main_title">
+				<h2>Reliable Customers</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+					magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+			</div>
+			<div class="clients_slider owl-carousel">
+				<div class="item">
+					<img src="assets/img/clients-logo/c-logo-1.png" alt="">
+				</div>
+				<div class="item">
+					<img src="assets/img/clients-logo/c-logo-2.png" alt="">
+				</div>
+				<div class="item">
+					<img src="assets/img/clients-logo/c-logo-3.png" alt="">
+				</div>
+				<div class="item">
+					<img src="assets/img/clients-logo/c-logo-4.png" alt="">
+				</div>
+				<div class="item">
+					<img src="assets/img/clients-logo/c-logo-5.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!--================End Clients Logo Area =================-->
+</div>
+<!-- CMS model for login -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+ ng-controller="loginCtrl">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header reg-header">
+				<h6 class="modal-title text-center" id="myModalLabel">Customer Management System-The Centrium Mall<i class="text-primary">
+						(Login Here)</i></h6>
+
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+
+			</div>
+			<div class="modal-body">
+				<form name="basicInfoForm" class="admin">
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<div class="input-group pb-modalreglog-input-group">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Email" required="">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="password">Password</label>
+						<div class="input-group pb-modalreglog-input-group">
+							<input type="password" class="form-control" id="pws" placeholder="Password" name="password" required="">
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer reg-header">
+				<button type="button" class="btn btn-primary login-close-left" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-success" onclick="login()">Log in</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- CMS model For Booking -->
+<div class="modal fade" id="myBookingModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+ ng-controller="loginCtrl">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header reg-header">
+				<h6 class="modal-title text-center" id="myModalLabel">Signup For Booking<i class="text-primary"> (Register Here)</i></h6>
+
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+
+			</div>
+			<div class="modal-body">
+				<form name="basicInfoForm" class="admin">
+					<div class="form-group">
+						<label for="email">CNIC Number</label>
+						<div class="input-group pb-modalreglog-input-group">
+							<input type="text" class="form-control" name="cnic" id="cnic" placeholder="CNIC" required="">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email">Full Name</label>
+						<div class="input-group pb-modalreglog-input-group">
+							<input type="text" class="form-control" name="name" id="name" placeholder="your name" required="">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<div class="input-group pb-modalreglog-input-group">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Email" required="">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="password">Phone Number</label>
+						<div class="input-group pb-modalreglog-input-group">
+							<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Phone Number" name="password"
+							 required="">
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer reg-header">
+				<button type="button" class="btn btn-primary login-close-left" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-success" onclick="book()">Book</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--================ start footer Area  =================-->
+<footer id="contact" class="footer-area p_120">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4  col-md-6 col-sm-6">
+				<div class="single-footer-widget">
+					<h6 class="footer_title">About Us</h6>
+					<ul>
+						<li><i class="fa fa-phone"></i> (051) 877 7778</li>
+						<li><i class="fa fa-mobile"></i> 0331 5555969</li>
+						<li><i class="fa fa-envelope"></i> info@egateproperty.com</li>
+						<li><i class="fa fa-map-marker"></i> Plot 72 East, Second Floor,Fortune Plaza, Jinnah Avenue,Blue Area, Islamabad</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="single-footer-widget">
+					<h6 class="footer_title">Newsletter</h6>
+					<p>Stay updated with our latest trends</p>
+					<div id="mc_embed_signup">
+						<form target="_blank" action="" method="get" class="subscribe_form relative">
+							<div class="input-group d-flex flex-row">
+								<input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '"
+								 required="" type="email">
+								<button class="btn sub-btn"><span class="lnr lnr-arrow-right" title="Subscribe Us"></span></button>
+							</div>
+							<div class="mt-10 info"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-footer-widget instafeed">
+                            <h6 class="footer_title">Instagram Feed</h6>
+                            <ul class="list instafeed d-flex flex-wrap">
+                                <li><img src="assets/img/instagram/Image-01.jpg" alt=""></li>
+                                <li><img src="assets/img/instagram/Image-02.jpg" alt=""></li>
+                                <li><img src="assets/img/instagram/Image-03.jpg" alt=""></li>
+                                <li><img src="assets/img/instagram/Image-04.jpg" alt=""></li>
+                                <li><img src="assets/img/instagram/Image-05.jpg" alt=""></li>
+                                <li><img src="assets/img/instagram/Image-06.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>	 -->
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="single-footer-widget f_social_wd">
+					<h6 class="footer_title">Follow Us</h6>
+					<p>Let us be social</p>
+					<div class="f_social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-youtube"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--div class="row footer-bottom d-flex justify-content-between align-items-center">
+                    <p class="col-lg-12 footer-text text-center">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+</p>
+                </div-->
+	</div>
+</footer>
+<!--================ End footer Area  =================-->

@@ -1,0 +1,87 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "centrium-app"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles/vendors/linericon/style.css",
+        "../node_modules/font-awesome/scss/font-awesome.scss",
+        "../node_modules/owl.carousel2/dist/assets/owl.carousel.min.css",
+        "../node_modules/simpleLightbox/dist/simplelightbox.min.css",
+         "../node_modules/jquery-nice-select/css/nice-select.css",
+         "../node_modules/animate.css/animate.min.css",
+         "styles/vendors/jquery-ui/jquery-ui.css",
+         "styles/css/style.css",
+         "styles/css/responsive.css",
+         "styles/css/popup.css",
+         "styles.css"
+
+      ],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "styles/js/stellar.js",
+        "../node_modules/simpleLightbox/dist/simple-lightbox.min.js",
+        "../node_modules/jquery-nice-select/js/jquery.nice-select.min.js",
+        "styles/vendors/isotope/imagesloaded.pkgd.min.js",
+        "styles/vendors/isotope/isotope-min.js",
+        "../node_modules/owl.carousel2/dist/owl.carousel.min.js",
+        "styles/vendors/jquery-ui/jquery-ui.js",
+        "styles/js/jquery.ajaxchimp.min.js",
+        "styles/js/mail-script.js",
+        "styles/js/theme.js",
+        "styles/js/popup.js",
+        "styles/js/custom.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "src/tsconfig.spec.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}
